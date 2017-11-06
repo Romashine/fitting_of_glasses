@@ -1,0 +1,63 @@
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome and Opera */
+}
+
+.canvas-app-table{
+    
+    width: 800px;
+    
+}
+.canvas-app-header{
+    background: rgb(63, 133, 236);
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+}
+.canvas-app-body{
+    height: 400px;
+}
+.canvas-app-navigation{
+
+    width: 40px;
+}
+.canvas-app-navigation-btn>div{
+    padding: 1px;
+    width: 30px;
+    height: 30px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.canvas-app-navigation-btn>div:hover{
+    padding: 0px;
+    border: 1px solid black;    
+}
+.canvas-app-image>div{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid gray;
+}
+.canvas-app-image>div>*{
+    position: absolute;
+}
+.canvas-app-info{
+    width: 200px;
+}
+.canvas-app-subheader{
+    background: rgb(63, 133, 236);
+    height: 50px;
+}
+.canvas-app-product{
+    background: rgb(63, 133, 236);
+    height: 100px;
+
+}
